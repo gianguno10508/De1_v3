@@ -1,0 +1,36 @@
+@media only screen and (max-width: 767px){
+	.menu-bars{
+		display: block;
+	}
+	.icon-menu li{
+		font-size: 10px;
+		display: inline-block;
+	}
+	.menu-content{
+		display: none;
+	}
+
+	.menu-bars li a.icon {
+	    float: right;
+	    display: block;
+  	}
+	.menu-content.responsive {
+	  	position: relative;
+	  	border: 1px solid;
+	  	z-index: 1000;
+	  	margin-top: 100px;
+	}
+	.menu-content.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	}
+	.menu-content.responsive li a {
+	    float: none;
+	    display: block;
+	    /*text-align: left;*/
+	    color: red;
+	}
+}
